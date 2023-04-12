@@ -20,10 +20,12 @@ This code originally is proposed for TransER for single image dehazing. TransER 
 
 ## Requirments ##
 
-Pytorch 1.9.0
+Pytorch 1.10.2
 
-Python 3.8
+Python 3.7
 
-Deep learning libraries/frameworks: OpenCV, HDF5, TensorBoard,Pandas,...
+cudatoolkit=11.3
+
+Deep learning libraries/frameworks: OpenCV, HDF5, TensorBoard, timm, torchvision, pytorch_msssim...
 
 To run the code, make sure all the files are in the corresponding folders
