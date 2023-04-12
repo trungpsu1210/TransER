@@ -29,3 +29,16 @@ Cudatoolkit=11.3
 Deep learning libraries/frameworks: OpenCV, TensorBoard, timm, torchvision, pytorch_msssim...
 
 To run the code, make sure all the files are in the corresponding folders
+
+## Citation ##
+
+If you find this method useful for your work/research, please cite our paper:
+
+```
+@inproceedings{cvprw2023TransERtrungpsu,
+  author={Hoang, Trung and Zhang, Haichuan and Yazdani, Amirsaeed and Monga, Vishal},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  title={TransER: Hybrid Model and Ensemble-based Sequential Learning for Non-homogenous Dehazing}, 
+  year={2023}
+  }
+```
