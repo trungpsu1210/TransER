@@ -4,7 +4,7 @@ This code originally is proposed for TransER for single image dehazing. TransER 
 
 ## Illustration of TransER ##
 
-![alt text](https://github.com/trungpsu1210/TransER/blob/main/Overal Architecture Paper.png)
+![alt text](https://github.com/trungpsu1210/TransER/blob/main/Overal_architecture.png)
 
 ## Structure of the code ##
 
