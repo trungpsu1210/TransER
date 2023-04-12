@@ -1,0 +1,17 @@
+{
+    "batch_size_Stage_I": 16,
+    "batch_size_Stage_II": 32,
+    "patch_size": 256,
+    "valid_mode": "test",
+    "edge_decay": 0,
+    "only_h_flip": false,
+    "optimizer": "adamw",
+    "lr_TFD": 4e-4,
+    "lr_LER": 1e-4,
+    "lr_TRN": 1e-4,
+    "step_T": 10,
+    "epochs_TFD": 8000,
+    "epochs_LER": 80,
+    "epochs_TRN": 100,
+    "eval_freq": 1
+}
