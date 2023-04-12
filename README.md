@@ -24,7 +24,7 @@ Pytorch 1.10.2
 
 Python 3.7
 
-cudatoolkit=11.3
+Cudatoolkit=11.3
 
 Deep learning libraries/frameworks: OpenCV, HDF5, TensorBoard, timm, torchvision, pytorch_msssim...
 
