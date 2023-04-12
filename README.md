@@ -8,16 +8,15 @@ This code originally is proposed for TransER for single image dehazing. TransER 
 
 ## Structure of the code ##
 
-1. First Classifier - Bi-Conv-LSTM and Second Classifier - Domain Enrich: Two proposed methods, each folders will have
-* model.py: proposed model
-* create_HDF5.py: convert all the data and label to H5py files
-* preprocessing_dataloader.py: preprocessed data
-* train.py: train the model
-* test.py: test the performance
-2. Checkpoint, H5, Results: save all the corresponding files to here
-3. pytorch-msssim: designed the msssim loss function
-4. Visualization.ipynb: code for drawing the figures with latex fonts (bar, chart, line, confusion matrix,...) used for papers
-5. utils.py: useful function using in the code
+1. models: Folders for proposed networks (TFD, TRN, and LER)
+2. train_xxx.py: to train the models in multiple steps
+3. test.py: to test the quantitative results
+4. predict.py: tp generate the haze-free images
+5. data_loader.py: to load the pair input and output data or single images
+6. perceptual.py: vgg loss function
+7. configs.json: configuration parameter to train, test, and predict
+8. utils: useful function using in the code
+9. empatches: function to extract and merge multiple patches
 
 ## Requirments ##
 
