@@ -26,6 +26,6 @@ Python 3.7
 
 Cudatoolkit=11.3
 
-Deep learning libraries/frameworks: OpenCV, HDF5, TensorBoard, timm, torchvision, pytorch_msssim...
+Deep learning libraries/frameworks: OpenCV, TensorBoard, timm, torchvision, pytorch_msssim...
 
 To run the code, make sure all the files are in the corresponding folders
