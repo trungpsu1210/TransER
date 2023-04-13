@@ -53,7 +53,7 @@ def train(train_loader, network_TFD, network_TRN, network_LER, criterion, optimi
 
             loss_rec = criterion[0](output, target_img)
             loss_pec = criterion[2](output, target_img)
-            loss_ssim = 1 - criterion[1](output.float(), target_img)
+            loss_ssim = - criterion[1](output.float(), target_img)
 
             loss = loss_rec + loss_KT + 0.2 * loss_ssim + 0.1 * loss_pec
 
