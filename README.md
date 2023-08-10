@@ -11,7 +11,7 @@ This code originally is proposed for TransER for single image dehazing. TransER 
 1. models: Folders for proposed networks (TFD, TRN, and LER)
 2. train_xxx.py: to train the models in multiple steps
 3. test.py: to test the quantitative results
-4. predict.py: tp generate the haze-free images
+4. predict.py: to generate the haze-free images
 5. data_loader.py: to load the pair input and output data or single images
 6. perceptual.py: vgg loss function
 7. configs.json: configuration parameter to train, test, and predict
