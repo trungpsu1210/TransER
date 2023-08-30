@@ -37,8 +37,9 @@ If you find this method useful for your work/research, please cite our paper:
 ```
 @inproceedings{cvprw2023TransERtrungpsu,
   author={Hoang, Trung and Zhang, Haichuan and Yazdani, Amirsaeed and Monga, Vishal},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  booktitle={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
   title={TransER: Hybrid Model and Ensemble-based Sequential Learning for Non-homogenous Dehazing}, 
-  year={2023}
+  year={2023},
+  pages={1670-1679}
   }
 ```
